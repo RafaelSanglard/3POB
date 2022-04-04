@@ -1,0 +1,44 @@
+package fr;
+
+public class Professor 
+{
+	private String nome;
+	private String sobrenome;
+	private int matricula;
+	private double salario;
+	private String dtnasc;
+	
+	//Setters
+	Professor(String nome, String sobrenome,int matricula, double salario, String dtnasc)
+	{
+		this.nome      = nome;
+		this.sobrenome = sobrenome;
+		this.matricula = matricula;
+		this.salario   = salario;
+		this.dtnasc    = dtnasc;
+		
+	}
+	
+	//Getters
+	public String getnome()
+	{
+		return nome;
+	}
+	public String getsobrenome()
+	{
+		return sobrenome;
+	}
+	public int getmatricula() 
+	{
+		return matricula;
+	}
+	public double getsalario()
+	{
+		return salario;
+	}
+	public String dtnasc()
+	{
+		return dtnasc;
+	}
+
+}
