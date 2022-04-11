@@ -1,0 +1,59 @@
+package faculdade;
+
+public class Aluno
+{
+	private String nome;
+	private String sobrenome;
+	private int matricula;
+	private double av1;
+	private double av2;
+		private String dtnasc;
+	
+	
+	//Setters
+	Aluno(String nome, String sobrenome,int matricula, double av1, double av2, String dtnasc)
+	{
+		this.nome      = nome;
+		this.sobrenome = sobrenome;
+		this.matricula = matricula;
+		this.av1   = av1;
+		this.av2   = av2;
+		this.dtnasc    = dtnasc;
+		
+	}
+	
+	
+	//Getters
+	public String getnome()
+	{
+		return nome;
+	}
+	public String getsobrenome()
+	{
+		return sobrenome;
+	}
+	public int getmatricula() 
+	{
+		return matricula;
+	}
+	public double getav1()
+	{
+		return av1;
+	}
+	public double getav2()
+	{
+		return av2;
+	}
+	
+	public String dtnasc()
+	{
+		return dtnasc;
+	}
+
+	public double getmedia() 
+	{
+		double media = (this.av1+this.av2)/2;
+		return media;
+	}
+}
+
