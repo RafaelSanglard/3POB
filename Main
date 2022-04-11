@@ -1,0 +1,13 @@
+package faculdade;
+
+public class Main 
+{
+
+	public static void main(String[] args) 
+  {
+
+		Aluno alu = new Aluno("João", "Pedro", 10, 5.5, 8.7,"12/04/2013");
+		System.out.println(""+alu.getmedia());
+	}
+
+}
